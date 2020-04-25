@@ -35,7 +35,7 @@ public class Server {
         //int port = Integer.parseInt(args[0]);
         //String directory = args[1];
         int port = 9090;
-        String directory = "W:\\MyTasks\\HttpServer\\files";
+        String directory = "files";
         new Server(port, directory).start();
     }
 }
